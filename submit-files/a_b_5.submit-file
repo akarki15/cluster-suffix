@@ -1,0 +1,7 @@
+UNIVERSE = vanilla
+EXECUTABLE = /home/akarki15/suffix/run.jar
+ERROR = /home/akarki15/suffix/error/5.txt
+OUTPUT = /home/akarki15/suffix/output/a_b_5.txt
+ARGUMENTS = /home/akarki15/suffix/input/a.txt /home/akarki15/suffix/input/b.txt 5
+NOTIFICATION = never
+QUEUE
