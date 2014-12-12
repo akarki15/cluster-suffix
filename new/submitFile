@@ -1,0 +1,14 @@
+UNIVERSE = vanilla
+EXECUTABLE = /home/kchandra15/cluster-scratch/cs450/suffixTree/suffix-master/src/RunWord.jar
+NOTIFICATION = Error
+OUTPUT = /home/kchandra15/cluster-scratch/cs450/suffixTree/suffix-master/src/output/output$(Process).stdout
+ERROR = /home/kchandra15/cluster-scratch/cs450/suffixTree/suffix-master/src/output/error$(Process).err
+ARGUMENTS = 1 $(Process) 4
+STREAM_OUTPUT = TRUE
+LOG = runWordLog/log_$(Process).log
+SHOULD_TRANSFER_FILES = YES
+WHEN_TO_TRANSFER_OUTPUT = ON_EXIT
+TRANSFER_INPUT_FILES = book1.txt, book4.txt
+# OUTPUT_DESTINATION = /home/kchandra15/cluster-scratch/cs450/suffixTree/suffix-master/src
+INITIALDIR = /home/kchandra15/cluster-scratch/cs450/suffixTree/suffix-master/src
+Queue 238
